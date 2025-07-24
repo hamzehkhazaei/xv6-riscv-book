@@ -28,7 +28,7 @@ book.pdf: src book.tex $(TEX)
 
 clean:
 	rm -f book.aux book.idx book.ilg book.ind book.log\
-	 	book.toc book.bbl book.blg book.out
+	 	book.toc book.bbl book.blg book.out book.pdf
 	rm -rf latex.out
 	rm -rf $(SRC)
 
